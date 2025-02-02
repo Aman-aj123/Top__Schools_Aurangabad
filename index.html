@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top Schools in Aurangabad || Aman Raaz</title>
 
-   
+    <!-- AOS CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
-    
     <style>
         html,
         body {
@@ -16,25 +16,26 @@
         }
     </style>
 
-      <script src="script.js" ></script>
-      
+    <script src="script.js"></script>
+
 </head>
 
 <body>
     <!-- Header  -->
-    <header class="text-gray-600 body-font bg-pink-100">
+    <header data-aos="flip-left" class="text-gray-600 body-font bg-pink-100">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                 
-                <img src="./logo_pic.jpg" class="rounded-full w-[58px] h-[59px]" style="object-fit: cover; padding: 2px; background: linear-gradient(deeppink, orange);" alt="">
+            <a class=" flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+
+                <img src="./logo_pic.jpg" class="shadow-md rounded-full w-[58px] h-[59px]"
+                    style="object-fit: cover; padding: 2px; background: linear-gradient(deeppink, orange);" alt="">
             </a>
             <nav
                 class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-                <a class="mr-5 hover:text-gray-900">Home </a>
-                <a class="mr-5 hover:text-gray-900">About Schools</a>
-                <a class="mr-5 hover:text-gray-900"> Start finding</a>
+                <a href="/" class="mr-5 hover:text-gray-900 cursor-pointer">Home </a>
+                <a href="#Contact-me" class="mr-5 hover:text-gray-900 cursor-pointer">Contact Me</a>
+                <a href="school-cards" class="mr-5 hover:text-gray-900 cursor-pointer"> Top Schools</a>
             </nav>
-            <a target="_blank" href="#school-cards"
+            <a href="#school-cards"
                 class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Start
                 Finding
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -44,12 +45,12 @@
             </a>
         </div>
     </header>
-    <img class="absolute   w-full  " src="./school_img.jpg" style="height: calc(100vh - 80px);" />
+    <img data-aos="zoom-in" class="absolute   w-full  " src="./school_img.jpg" style="height:90vh;" />
     <div>
 
 
-        <div class="relative isolate px-6 pt-14 lg:px-8 "
-            style="background-color: rgba(0,0,0,.8); height: calc(100vh - 80px);">
+        <div data-aos="zoom-in" class="relative isolate px-6 pt-14 lg:px-8 h-full"
+            style="background-color: rgba(0,0,0,.8); height: 90vh;">
             <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
                 aria-hidden="true">
                 <div class="relative left-[calc(50%-11rem)] aspect-1155/678 w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
@@ -59,17 +60,17 @@
             <div class="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
 
                 <div class="text-center">
-                    <h1 class="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">Find Your
-                        <span class="text-pink-500"> Best School </span> Under Aurangabad
+                    <h1 style="margin-top: -40px;"
+                        class="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">
+                        <span class="text-pink-500"> Schools </span> on a Click
                     </h1>
                     <p class="mt-8 text-lg font-medium text-pretty text-white sm:text-xl/8">Here you'll find all of the
-                        top best schools located in Aurangabad !</p>
+                          best schools located in Aurangabad, ('bihar')</p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
-                        <a target="_blank" href="#school-cards"
+                        <a href="#school-cards"
                             class="rounded-md bg-pink-500 tracking-widest px-3.5 py-2.5 text-lg font-semibold text-white shadow-xs hover:bg-pink-600  focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get
                             started</a>
-                        <a target="_blank" href="#" class="text-sm/6 font-semibold text-gray-900">Learn more <span
-                                aria-hidden="true">→</span></a>
+
                     </div>
                 </div>
             </div>
@@ -88,39 +89,119 @@
 
 
 
-  
- 
 
 
-        
+
+
+
 
 
     </div>
 
 
+
+    
+    <!-- Contact me  -->
+    <section id="Contact-me" class="text-gray-600 mt-30 body-font relative">
+        <h2 class="text-3xl font-bold text-green-600 pt-20 pb-4 pl-12">Contact With Me !</h2>
+        <div class="container px-5   mx-auto flex sm:flex-nowrap flex-wrap">
+
+
+            <div data-aos="flip-right"
+                class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0"
+                    marginwidth="0" scrolling="no"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7253.830053913689!2d84.24288188967948!3d24.626613412330325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398c579539216081%3A0x340ac15ed474d837!2sDeuria%2C%20Bihar%20824111!5e0!3m2!1sen!2sin!4v1738385403359!5m2!1sen!2sin"
+                    style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
+                <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+                    <div class="lg:w-1/2 px-6">
+                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+                        <p class="mt-1">Manortha, kutumba, Amba </p>
+                    </div>
+                    <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+                        <a class="text-pink-500 leading-relaxed">RajAman123922@email.com</a>
+                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+                        <p class="leading-relaxed">9155333590</p>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="flip-left"
+                class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                <div class="relative mb-4">
+                    <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                    <input type="text" id="name" name="name"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                    <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                    <input type="email" id="email" name="email"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                    <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                    <textarea id="message" name="message"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+                <button
+                    class="text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">Send</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
     <!-- About Me  -->
     <div class="flex w-full  flex-wrap items-center justify-evenly " style="margin-top: 150px;" ;>
-        <div class="left w-[auto]"><img src="./aman_pic_2.jpg" class="w-[300px] p-2 h-[408px] rounded-full "
+        <div data-aos="fade-down-left" class="left w-[auto]"><img src="./aman_pic_2.jpg"
+                class="w-[300px] p-2 h-[408px] rounded-full "
                 style="object-fit: cover; background: linear-gradient(deeppink, aqua);" /> </div>
-        <div class="right w-[50%]">
+        <div data-aos="fade-right" class="right w-[50%]">
             <h2 class="text-5xl font-bold">Hellow, <span class="text-pink-600">I'm Aman </span></h2>
             </p>
             <p class="mt-4">I've Created this website using Some Programming languages like: HTML, CSS and JAVASCRIPT.
-                IN which I've located all the top Schools of Aurangabad in my website. I will help you to quickly know
-                about the bests schools of Aurangabad. </p>
-            <h1 class="mt-5 text-2xl"><span class="text-orange-600"> About me: </span> <span class="ml-2" style="font-size: 18px;">  I'm Very interesting and excited to learn coding ❤.  My hobby is to become a good Software engineer. <p class="text-xl">  I Hope It will good for you ! ❤❤ </p></span> </h1>
+                IN which I've located all the top Schools of Aurangabad in my website. I made it possible with the help of my <span class="text-green-600 font-bold">  Computer Teacher - Alok Sir </span>  Here,  I will help the parents to quickly know about the best schools of Aurangabad.</p>
+            <h1 class="mt-5 text-2xl"><span class="text-orange-600"> About me: </span> <span class="ml-2"
+                    style="font-size: 18px;"> I'm Very interesting and excited to learn coding ❤. My hobby is to become
+                    a good Software engineer. <p class="text-xl"> I Hope It will help you alot ! ❤❤ </p></span> </h1>
+                    <p class="mt-5 font-bold text-2xl text-green-500">Thankyou !</p>
         </div>
     </div>
 
 
 
+
+    <!-- Directed By Alok Sir  -->
+    <div class="flex w-full  flex-wrap items-center justify-evenly " style="margin-top: 150px;" ;>
+        <div data-aos="fade-right" class="right w-[50%]">
+            <h2 class="text-5xl font-bold">Directed By :-<span class="text-pink-600"> Alok Sir </span></h2>
+            </p>
+            <p class="mt-4 font-bold"> (Computer teacher),   St. Joseph Public School, Amba, Aurangabad, ('Bihar')   </p>
+
+             
+            <h1 class="mt-5 text-2xl"><span class="text-orange-600"> About Him: </span>
+                <span class="mt-5">He has inspired me with this idea to create such type of website which is very helpful for the parents.</span>
+            </h1>
+            
+        </div>
+
+        <div data-aos="fade-down-left" class="left w-[auto]"><img src="./Alok_sir.jpg"
+                class="w-[300px] p-2 h-[408px] rounded-full "
+                style="object-fit: cover; background: linear-gradient(deeppink, aqua);" /> </div>
+ 
+    </div>
+
+
     <!-- Footer  -->
-    <footer class="text-gray-600 body-font">
+    <footer data-aos="flip-left" class="text-gray-600 body-font">
         <div
             class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
             <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
                 <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                    <img src="./logo_pic.jpg" class="rounded-full w-[58px] h-[59px]" style="object-fit: cover; padding: 2px; background: linear-gradient(deeppink, orange);" alt="">
+                    <img src="./logo_pic.jpg" class="rounded-full w-[58px] h-[59px]"
+                        style="object-fit: cover; padding: 2px; background: linear-gradient(deeppink, orange);" alt="">
 
                     <span class="ml-3 text-xl">SchoolWeb</span>
                 </a>
@@ -140,6 +221,9 @@
                             <a class="text-gray-600 hover:text-gray-800">Village: Manortha</a>
                         </li>
                         <li>
+                            <a class="text-gray-600 hover:text-gray-800">Hobby: Coding</a>
+                        </li>
+                        <li>
                             <a class="text-gray-600 hover:text-gray-800">Phone no: 9155333590</a>
                         </li>
                         <li>
@@ -151,29 +235,32 @@
                     <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Links</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">Schools</a>
+                            <a href="/" class="text-gray-600 hover:text-gray-800">Home</a>
                         </li>
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">Start finding</a>
+                            <a href="#school-cards" class="text-gray-600 hover:text-gray-800">Top School</a>
                         </li>
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">More</a>
+                            <a href="#Contact-me" class="text-gray-600 hover:text-gray-800">Contact Me</a>
                         </li>
                         <li>
                         </li>
                     </nav>
                 </div>
 
-
+                
 
             </div>
         </div>
         <div class="bg-gray-100">
             <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                <p class="text-gray-500 text-sm text-center sm:text-left">Copyright © Created and Developed by Aman Raj
+                <p class="text-gray-500 text-sm text-center sm:text-left">Copyright © Created and <span
+                        class="text-green-600 font-bold"> Developed by
+                        Aman Raj </span>
                     ❤ SchoolWeb —
                     <a target="_blank" href="https://twitter.com/knyttneve" rel="noopener noreferrer"
-                        class="text-gray-600 ml-1" target="_blank">@RajAman123922@gmail.com</a>
+                        class="text-gray-600 ml-1" target="_blank">Email: <span class="ml-2 font-bold text-pink-600">
+                            RajAman123922@gmail.com </span></a>
                 </p>
                 <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
                     <a class="text-gray-500">
@@ -211,7 +298,30 @@
         </div>
     </footer>
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JAVASCRIPT  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000
+        });
+    </script>
+
+    <!-- AOS JS Library  -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
 
