@@ -16,7 +16,7 @@ const fetchData = () => {
 
     },
     {
-        schoolName: "D.A.V. Public School, Daud Nagar",
+        schoolName: "D.A.V. Public School, Aurangabad | Bihar",
         schoolDesc: "DAV Public School, Daudnagar was established in the year 1993 by untiring effort of the then S.D.O., C.O. And other local intelligentsia.",
         schoolImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPv8feQEjRt3k9Vqt1lLfpIeboOBc68_SbyA&s",
         schoolLink: "http://davdaudnagar.in/"
