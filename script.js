@@ -7,21 +7,8 @@ const fetchData = () => {
         schoolLink: "https://amanbro123922.github.io/school/#"
 
     },
-    {
-        schoolName: "Kendriya Vidyalay, Aurangabad ",
-        schoolDesc: "Kendriya Vidyalaya, Aurangabad was established in 2010 under the patronage of Kendriya Vidyalaya Sangthan, New Delhi ,an autonomous body under the Ministry of Human Resource Development. Like all Kendriya Vidyalayas, KV Aurangabad too adheres to four fold Principles of KVS.",
-        schoolImg: "https://static.toiimg.com/thumb/msid-80926851,width-1280,height-720,resizemode-4/80926851.jpg",
-        schoolLink: "https://aurangabad.kvs.ac.in/",
-
-
-    },
-    {
-        schoolName: "D.A.V. Public School, Aurangabad | Bihar",
-        schoolDesc: "DAV Public School, Daudnagar was established in the year 1993 by untiring effort of the then S.D.O., C.O. And other local intelligentsia.",
-        schoolImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPv8feQEjRt3k9Vqt1lLfpIeboOBc68_SbyA&s",
-        schoolLink: "http://davdaudnagar.in/"
-
-    },
+     
+    
 
     {
         schoolName: "ST Ignatius School | Aurangabad",
@@ -74,8 +61,22 @@ const fetchData = () => {
         schoolImg: "https://content.jdmagicbox.com/comp/aurangabad-bihar/q7/9999p6186.6186.191206152425.a4q7/catalogue/sanskar-vidya-daudnagar-aurangabad-bihar-cbse-schools-4is1x1jnj5.jpg?fit=around%7C550:350&crop=550:350;*,*",
         schoolLink: "https://www.justdial.com/Aurangabad-Bihar/Sanskar-Vidya-Near-Sanskar-Vidya-Daudnagar/9999P6186-6186-191206152425-A4Q7_BZDET"
     },
+    {
+        schoolName: "Kendriya Vidyalay, Aurangabad ",
+        schoolDesc: "Kendriya Vidyalaya, Aurangabad was established in 2010 under the patronage of Kendriya Vidyalaya Sangthan, New Delhi ,an autonomous body under the Ministry of Human Resource Development. Like all Kendriya Vidyalayas, KV Aurangabad too adheres to four fold Principles of KVS.",
+        schoolImg: "https://static.toiimg.com/thumb/msid-80926851,width-1280,height-720,resizemode-4/80926851.jpg",
+        schoolLink: "https://aurangabad.kvs.ac.in/",
+
+
+    },
     
- 
+    {
+        schoolName: "D.A.V. Public School, Aurangabad | Bihar",
+        schoolDesc: "DAV Public School, It was established in the year 1993 by untiring effort of the then S.D.O., C.O. And other local intelligentsia.",
+        schoolImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPv8feQEjRt3k9Vqt1lLfpIeboOBc68_SbyA&s",
+        schoolLink: "http://davdaudnagar.in/"
+
+    },
    
 
 
